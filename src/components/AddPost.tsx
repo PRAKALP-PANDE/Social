@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const AddPost = () => {
   return (
-    <div className="p-4 bg-white rounded-lg flex gap-4 justify-between text-sm">
+    <div className="p-4 bg-white shadow-md rounded-lg flex gap-4 justify-between text-sm">
       {/* AVTAR */}
       <Image src="https://images.pexels.com/photos/32221924/pexels-photo-32221924.jpeg" alt="" width={48} height={48} className="w-12 h-12 object-cover rounded-full" />
       {/* POST */}
